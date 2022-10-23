@@ -1,6 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", "Montserrat", "Helvetica Neue";
+  font-weight: 400;
 }
 body {
   margin: 0;
@@ -8,6 +16,8 @@ body {
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1f1e24;
+  color: #fff;
 }
 
 code {
